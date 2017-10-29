@@ -1,0 +1,21 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "bnk",
+  "license": "MIT",
+  "scripts": {
+    "serve": "live-server public",
+    "build": "babel src/copy-object.js --out-file=public/scripts/app.js --presets=env,react,es2015,es2016,es2017 --watch"
+  },
+  "dependencies": {
+    "babel-cli": "*",
+    "babel-plugin-transform-object-rest-spread": "*",
+    "babel-preset-env": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-es2016": "*",
+    "babel-preset-es2017": "*",
+    "babel-preset-react": "*",
+    "live-server": "*"
+  }
+}
